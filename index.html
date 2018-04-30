@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="da" manifest="manifest.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="icon_g.png">
+    <link rel="apple-touch-icon-precomposed" href="icon_g.png">
+    <link rel="manifest" href="web-app-manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory App</title>
+</head>
+<body>
+    <div id="welcome">
+        <h1>Welcome to the memory app</h1>
+        <p>Choose number of tiles...</p>
+
+        <form id="playGame">
+
+            <input type="radio" name="level" value="16" id="sixteen" checked>
+            <label for="sixteen">16</label>
+
+            <input type="radio" name="level" value="20" id="twenty" >
+            <label for="twenty">20</label>
+
+            <input type="radio" name="level" value="24" id="twentyfour">
+            <label for="twentyfour">24</label>
+
+            <button type="submit">Play Game</button>
+
+        </form>
+    </div>
+
+    <div id="board"></div>
+
+    <div id="message">
+
+        <p>Congrats! You got'em all!</p>
+
+        <button>Play again</button>
+
+    </div>
+    <script src="memory.js"></script>
+</body>
+</html>
