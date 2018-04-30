@@ -47,7 +47,6 @@ body{
 #board {
     display: none;
     width: 100%;
-    heigth: 100%;
     padding: 1.5vw;
     box-sizing: border-box;
     flex-wrap: wrap;
