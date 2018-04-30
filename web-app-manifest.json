@@ -7,10 +7,10 @@
             "type":"image/png"
         }
     ],
-    "theme-color":"#193d52",
-    "background-color":"#193d52",
+    "theme_color":"#193d52",
+    "background_color":"#193d52",
     "scope":" https://mathiaschristensen18.github.io/MemoryApp/",
-    "start-url":" https://mathiaschristensen18.github.io/MemoryApp/index.html",
+    "start_url":" https://mathiaschristensen18.github.io/MemoryApp/index.html",
     "display":"fullscreen",
     "orientation":"potrait"
 }
