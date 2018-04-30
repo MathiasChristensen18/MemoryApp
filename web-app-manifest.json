@@ -11,6 +11,6 @@
     "background-color":"#193d52",
     "scope":" https://mathiaschristensen18.github.io/MemoryApp/",
     "start-url":" https://mathiaschristensen18.github.io/MemoryApp/index.html",
-    "display":"standalone",
-    "orientation":"portrait"
+    "display":"fullscreen",
+    "orientation":"potrait"
 }
