@@ -76,7 +76,7 @@ body{
     -webkit-backface-visibility: hidden;
 }
 .front{
-    background: linear-gradient(to bottom,#85b0d3 , #193d52);
+    background-color: #193d52;
     z-index: 2;
 }
 #board .flipped{
@@ -91,7 +91,7 @@ body{
     font-size: 250%;
     z-index: 2;
     transform: rotateY(180deg);
-    background-color: rgba(255, 94, 0, 0.938);
+    background-color: rgba(255, 96, 0);
     color: #000;
 }
 #message {
