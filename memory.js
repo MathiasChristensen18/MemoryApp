@@ -90,7 +90,7 @@ function twoTiles(tiles) {
 function flipTile(event) {
     'use strict';
     var tiles = Array.from(board.querySelectorAll('section'));
-    if (event.target !== event.currentTarget) {
+    if (event.target !== event.currentTarget && event.touches.length === 1) {
         if (!event.target.parentNode.classList.contains('flipped')) {
             event.target.parentNode.classList.add('flipped');
             tilesFlipped.push(tiles.indexOf(event.target.parentNode));
@@ -100,6 +100,6 @@ function flipTile(event) {
     }
 }
 
-board.addEventListener('touchend', flipTile);
+board.addEventListener('touchstart', flipTile);
 document.getElementById('message').getElementsByTagName('button')[0].addEventListener('click', newGame);
 document.getElementById('playGame').addEventListener('submit', drawBoard);
